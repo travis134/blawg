@@ -1,0 +1,10 @@
+con?
+.DS_Store
+.svn
+code_coverage
+*~
+*.swp
+coverage
+kohana_release
+nbproject
+build

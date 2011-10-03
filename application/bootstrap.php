@@ -112,6 +112,19 @@ Kohana::modules(array(
  * defaults for the URI.
  */
  
+Route::set('controlpanel', 'controlpanel(/)')
+	->defaults(array(
+		'controller' => 'user',
+		'action'     => 'controlpanel',
+	));
+	
+ 
+Route::set('logout', 'logout(/)')
+	->defaults(array(
+		'controller' => 'user',
+		'action'     => 'logout',
+	));
+ 
 Route::set('login', 'login(/)')
 	->defaults(array(
 		'controller' => 'user',

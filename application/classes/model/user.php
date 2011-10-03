@@ -12,9 +12,6 @@ class Model_User extends Model_Database
 	//Ensure the data was loaded from the db correctly
 	protected $loaded;
 	
-	//Store session for user info
-	protected $session;
-	
 	//Default constructor, creates user object from data members
 	public function __construct(array $data=NULL)
 	{
@@ -55,8 +52,6 @@ class Model_User extends Model_Database
 		//If the md5 hashes match
 		if($this->get('password') == $password)
 		{
-			$this->session = Session::instance();
-			$this->session->set($this->data);
 			$result = true;
 		}
 		return $result;

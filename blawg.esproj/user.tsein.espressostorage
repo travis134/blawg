@@ -132,6 +132,12 @@
 				<key>StateType</key>
 				<string>DefaultTab</string>
 			</dict>
+			<dict>
+				<key>DocumentURL</key>
+				<string>file://localhost/Users/tsein/Documents/Projects/synapse/blawg/application/views/user/login.php</string>
+				<key>StateType</key>
+				<string>DefaultTab</string>
+			</dict>
 		</array>
 	</dict>
 	<key>com.macrabbit.Espresso.WorkspaceTabs.DisclosureCollapsed</key>

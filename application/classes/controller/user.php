@@ -17,4 +17,12 @@ class Controller_User extends Controller {
 				->set('user', $user)));
 	}
 	
+	public function action_login()
+	{
+		$this->response->body(View::factory('common/template')
+			->set('title', 'Login')
+			->set('body', View::factory('user/login')));
+	}
+	
+	
 } // End User

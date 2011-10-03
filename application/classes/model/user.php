@@ -94,7 +94,7 @@ class Model_User extends Model_Database
 	//Read row from database that corresponds to the specified id
 	public function read()
 	{
-		$this->data = DB::select()->from('users')->where('id', '=', $this->get('id'))->limit(1)->execute($this->_db)->current();
+		$this->data = DB::select()->from('users')->where('id', '=', $this->get('id'))->or_where('username', '=', $this->get('username'))->or_where('email_address', '=', $this->get('email_address'))->limit(1)->execute($this->_db)->current();
 		$this->setLoaded(Arr::is_array($this->data));
 		return $this;
 	}

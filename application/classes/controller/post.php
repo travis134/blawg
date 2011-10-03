@@ -4,6 +4,8 @@ class Controller_Post extends Controller {
 
 	public function action_read()
 	{
+		$COMMENTS_PER_PAGE = 10;
+	
 		$post = Model::factory('post')->set('id', $this->request->param('id'))->read();
 		
 		if( ! $post->getLoaded())
@@ -14,7 +16,9 @@ class Controller_Post extends Controller {
 		$this->response->body(View::factory('common/template')
 			->set('title', $post->get('title'))
 			->set('body', View::factory('post/read')
-				->set('post', $post)));
+				->set('post', $post)
+				->set('user', Model::factory('user')->set('id', $post->get('author_id'))->read())
+				->set('comments', Model_Post::readAll($post->get('id'), $COMMENTS_PER_PAGE, 0))));
 	}
 
 	public function action_page()

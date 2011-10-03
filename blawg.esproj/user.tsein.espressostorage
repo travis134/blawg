@@ -7,13 +7,13 @@
 	<key>ESProjectWindowState</key>
 	<dict>
 		<key>ContentSize</key>
-		<string>{1106, 705}</string>
+		<string>{1384, 742}</string>
 		<key>ProjectURL</key>
 		<string>file://localhost/Users/tsein/Documents/Projects/synapse/blawg/blawg.esproj/</string>
 		<key>StateType</key>
 		<string>ProjectWindow</string>
 		<key>TopLeftPoint</key>
-		<string>{85, 878}</string>
+		<string>{141, 721}</string>
 	</dict>
 	<key>com.macrabbit.Espresso.FileManager.DisclosureCollapsed</key>
 	<false/>
@@ -87,6 +87,48 @@
 			<dict>
 				<key>DocumentURL</key>
 				<string>file://localhost/Users/tsein/Documents/Projects/synapse/blawg/application/config/database.php</string>
+				<key>StateType</key>
+				<string>DefaultTab</string>
+			</dict>
+			<dict>
+				<key>DocumentURL</key>
+				<string>file://localhost/Users/tsein/Documents/Projects/synapse/blawg/application/classes/model/comment.php</string>
+				<key>StateType</key>
+				<string>DefaultTab</string>
+			</dict>
+			<dict>
+				<key>DocumentURL</key>
+				<string>file://localhost/Users/tsein/Documents/Projects/synapse/blawg/application/classes/model/base.php</string>
+				<key>StateType</key>
+				<string>DefaultTab</string>
+			</dict>
+			<dict>
+				<key>DocumentURL</key>
+				<string>file://localhost/Users/tsein/Documents/Projects/synapse/blawg/application/classes/model/user.php</string>
+				<key>StateType</key>
+				<string>DefaultTab</string>
+			</dict>
+			<dict>
+				<key>DocumentURL</key>
+				<string>file://localhost/Users/tsein/Documents/Projects/synapse/blawg/application/views/comment/read.php</string>
+				<key>StateType</key>
+				<string>DefaultTab</string>
+			</dict>
+			<dict>
+				<key>DocumentURL</key>
+				<string>file://localhost/Users/tsein/Documents/Projects/synapse/blawg/application/views/comment/read_all.php</string>
+				<key>StateType</key>
+				<string>DefaultTab</string>
+			</dict>
+			<dict>
+				<key>DocumentURL</key>
+				<string>file://localhost/Users/tsein/Documents/Projects/synapse/blawg/application/views/user/read.php</string>
+				<key>StateType</key>
+				<string>DefaultTab</string>
+			</dict>
+			<dict>
+				<key>DocumentURL</key>
+				<string>file://localhost/Users/tsein/Documents/Projects/synapse/blawg/application/classes/controller/user.php</string>
 				<key>StateType</key>
 				<string>DefaultTab</string>
 			</dict>

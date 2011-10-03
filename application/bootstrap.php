@@ -112,6 +112,12 @@ Kohana::modules(array(
  * defaults for the URI.
  */
   
+Route::set('user', 'user/<id>')
+	->defaults(array(
+		'controller' => 'user',
+		'action'     => 'read',
+	));
+  
 Route::set('post', 'post/<id>')
 	->defaults(array(
 		'controller' => 'post',
